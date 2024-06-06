@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E185DA1-C5EE-4211-A3E7-6F8A21F0C831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomCustomerManagement.API", "src\EcomCustomerManagement.API\EcomCustomerManagement.API.csproj", "{8A280064-0300-43D3-BE37-2F77E19F7409}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{19B69BC0-3FEA-484A-90B0-62E481F3F467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomCustomerManagement.API.Tests", "tests\EcomCustomerManagement.API.Tests\EcomCustomerManagement.API.Tests.csproj", "{C9709FEA-A809-4A42-8EFB-C4293AA3312E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomCustomerManagement.Domain", "src\EcomCustomerManagement.Domain\EcomCustomerManagement.Domain.csproj", "{D8F2F0AB-98EB-4580-BFD3-FF176BFDD0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomCustomerManagement.Application", "src\EcomCustomerManagement.Application\EcomCustomerManagement.Application.csproj", "{0B95D51A-59D4-42C4-956E-793DFDD2905B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcomCustomerManagement.Infrastructure", "src\EcomCustomerManagement.Infrastructure\EcomCustomerManagement.Infrastructure.csproj", "{FC19D474-ABE3-4E8F-9EA3-70A2C3917593}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A280064-0300-43D3-BE37-2F77E19F7409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A280064-0300-43D3-BE37-2F77E19F7409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A280064-0300-43D3-BE37-2F77E19F7409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A280064-0300-43D3-BE37-2F77E19F7409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9709FEA-A809-4A42-8EFB-C4293AA3312E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9709FEA-A809-4A42-8EFB-C4293AA3312E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9709FEA-A809-4A42-8EFB-C4293AA3312E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9709FEA-A809-4A42-8EFB-C4293AA3312E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F2F0AB-98EB-4580-BFD3-FF176BFDD0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F2F0AB-98EB-4580-BFD3-FF176BFDD0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F2F0AB-98EB-4580-BFD3-FF176BFDD0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F2F0AB-98EB-4580-BFD3-FF176BFDD0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B95D51A-59D4-42C4-956E-793DFDD2905B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B95D51A-59D4-42C4-956E-793DFDD2905B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B95D51A-59D4-42C4-956E-793DFDD2905B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B95D51A-59D4-42C4-956E-793DFDD2905B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC19D474-ABE3-4E8F-9EA3-70A2C3917593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC19D474-ABE3-4E8F-9EA3-70A2C3917593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC19D474-ABE3-4E8F-9EA3-70A2C3917593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC19D474-ABE3-4E8F-9EA3-70A2C3917593}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A280064-0300-43D3-BE37-2F77E19F7409} = {9E185DA1-C5EE-4211-A3E7-6F8A21F0C831}
+		{C9709FEA-A809-4A42-8EFB-C4293AA3312E} = {19B69BC0-3FEA-484A-90B0-62E481F3F467}
+		{D8F2F0AB-98EB-4580-BFD3-FF176BFDD0AD} = {9E185DA1-C5EE-4211-A3E7-6F8A21F0C831}
+		{0B95D51A-59D4-42C4-956E-793DFDD2905B} = {9E185DA1-C5EE-4211-A3E7-6F8A21F0C831}
+		{FC19D474-ABE3-4E8F-9EA3-70A2C3917593} = {9E185DA1-C5EE-4211-A3E7-6F8A21F0C831}
+	EndGlobalSection
+EndGlobal
